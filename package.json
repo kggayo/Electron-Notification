@@ -1,0 +1,16 @@
+{
+    "name": "project-tracker",
+    "version": "1.0.0",
+    "main": "trayapp.js",
+    "build": {
+        "appId" : "ProjectTracker.Savvy",
+        "mac": {
+            "category" : "projecttracker.app"
+        }
+    },
+    "license": "MIT",
+    "scripts": {
+        "pack": "electron-builder --dir",
+        "dist": "electron-builder"
+    }
+}
